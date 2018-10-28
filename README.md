@@ -20,8 +20,12 @@ Build a map-based application, which lets the user see geo-based data on a map a
 
 Fill in (either in English, or in Slovak):
 
-**Application description**: `<fill in>`
+**Application description**: 
+This application is a web based interface which allows you quickly find your
+preferred type of hospitality depending on your preferences and requirements, 
+eg.: near a bus route, in a selected area, near to you or anywhere 
+where is the highest density of required hospitalities.
 
-**Data source**: `<fill in>`
+**Data source**: `postGIS database`
 
-**Technologies used**: `<fill in>`
+**Technologies used**: `Leaflet, bootleaf, PHP, JS, PostgreSQL`
