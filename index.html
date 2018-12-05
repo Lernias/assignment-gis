@@ -1,0 +1,57 @@
+<html>
+<head>
+  <title>Amenities locator</title>
+
+  <link rel="stylesheet" href="leaflet.css"/>
+  <link rel="stylesheet" href="bootleaf/leaflet-groupedlayercontrol/leaflet.groupedlayercontrol.css">
+  <link rel="stylesheet" href="bootleaf/css/app.css">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="jquery-3.3.1.min.js"></script>
+  <script src="bootstrap/js/bootstrap.js"></script>
+
+</head>
+<body class>
+
+<div class="container">
+  <div id="sidebar">
+
+    <H4>Search by amenity type</H4>
+
+      <input type="checkbox" name="amenities" value="pub"/> Pubs <br />
+      <input type="checkbox" name="amenities" value="biergarten"/> Biergarten <br />
+      <input type="checkbox" name="amenities" value="cafe"/> Cafe<br />
+      <input type="checkbox" name="amenities" value="restaurant"/> Restaurants<br />
+      <input type="checkbox" name="amenities" value="bar"/> Bars<br /><br />
+
+    <label>Select limit </label>
+    <input type="number" id="limit" name="limit" value="100" />
+    <input type="submit" class="myButton" value="Get by limit" name="get_limit" /><br><br>
+
+
+
+    <label>Input bus number</label><br>
+    <input type="text" id="bus" name="bus" /><br>
+    <label>Input distance from route [m]</label><br>
+    <input type="number" id="dist" name="dist"><br>
+    <input type="submit" class="myButton" name="get_near_route" value="Get near bus route" /><br><br>
+
+    <H4>Search by my location</H4>
+    <p id="coordinates"></p>
+    <input type="submit" class="myButton" name="get_near_me" value="Get near me" /><br><br>
+
+    <H4>Search by density</H4>
+    <input type="submit" class="myButton" name="density" value="Get by density" /><br><br>
+  </div>
+
+  <div id="map"></div>
+</div>
+</body>
+
+<script src="leaflet.js"></script>
+<script src="bootleaf/leaflet-groupedlayercontrol/leaflet.groupedlayercontrol.js"></script>
+
+<script src="map_controls.js"></script>
+
+
+</html>
