@@ -23,8 +23,8 @@ Fill in (either in English, or in Slovak):
 **Application description**: 
 This application is a web based interface which allows you quickly find your
 preferred type of hospitality depending on your preferences and requirements, 
-eg.: near a bus route, in a selected area, near to you or anywhere 
-where is the highest density of required hospitalities.
+eg.: near a bus route in a given distance, near to you in a given distance or anywhere,
+or searches and visualizes the areas of a city depending on the density of selected amenities.
 
 **Data source**: `postGIS database`
 
