@@ -15,6 +15,10 @@ This is search near bus route in action:
 
 ![Screenshot](near_bus_route.png)
 
+This is choroploth in action:
+
+![Screenshot](choroploth.png)
+
 The application has 2 separate parts, the client which is a frontend web application using leaflet.js,
 with bootleaf and bootstrap for graphics rendering. The backend application is written in PHP backed by PostGIS from PDT labs. T
 he frontend application communicates with backend using AJAX calls.
